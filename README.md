@@ -23,7 +23,7 @@ Keystone is a secure login system other apps can plug into instead of building t
 
 ## 🏗 Architecture
 
-![Keystone architecture diagram](./diagrams/architecture-diagram.svg)
+![Keystone architecture diagram](./diagram/architecture-diagram.svg)
 
 Requests flow from client apps through an API gateway into the core services (auth, MFA, OAuth/SSO), which read and write to the data layer — a user database, a Redis-backed session store, and a key management service exposing a JWKS endpoint.
 
@@ -31,7 +31,7 @@ Requests flow from client apps through an API gateway into the core services (au
 
 ## 🔐 How Login Works
 
-![Keystone login and token flow diagram](./diagrams/auth-flow-diagram.svg)
+![Keystone login and token flow diagram](./diagram/auth-flow-diagram.svg)
 
 1. Client submits credentials to `/login`
 2. Auth core verifies the password against its hash (Argon2id)
@@ -109,9 +109,3 @@ npm run dev
 
 ---
 
-
-
-
-![Keystone architecture diagram](./diagram/architecture-diagram.svg)
-
-![Keystone login and token issuance flow](./diagram/auth-flow-diagram.svg)
