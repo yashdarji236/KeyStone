@@ -112,6 +112,6 @@ npm run dev
 
 
 
-![Keystone architecture diagram](./diagrams/architecture-diagram.svg)
+![Keystone architecture diagram](./diagram/architecture-diagram.svg)
 
-![Keystone login and token issuance flow](./diagrams/auth-flow-diagram.svg)
+![Keystone login and token issuance flow](./diagram/auth-flow-diagram.svg)
